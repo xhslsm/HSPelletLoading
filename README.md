@@ -2,9 +2,15 @@
 
 
 typedef NS_ENUM(NSInteger, HSHudMaskType) {
+
+
     HSHudMaskTypeClear,
+
+
     HSHudMaskTypeNone
 };
+
+
 来区分是否需要拦截手势，HSHudMaskTypeClear为透明背景并且拦截手势，HSHudMaskTypeNone不拦截手势。
 
 调用：
