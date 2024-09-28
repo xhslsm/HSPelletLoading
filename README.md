@@ -10,6 +10,9 @@ typedef NS_ENUM(NSInteger, HSHudMaskType) {
  @param message 提示文本
  */
 + (void)showSuccessWithStatus:(NSString *)message maskType:(HSHudMaskType)maskType;
+
+
+
 /**
 移除
 */
